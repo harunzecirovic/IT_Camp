@@ -1,0 +1,13 @@
+.cont {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+    text-align: center;
+    width: 550 px;
+    height: 150 px;
+    background-color: darkgrey;
+    text-align: center;
+    opacity: 75 px;
+    padding: auto;
+}

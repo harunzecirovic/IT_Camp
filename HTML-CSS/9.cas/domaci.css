@@ -1,0 +1,38 @@
+table {
+    text-align: center;
+    width: 1200px;
+    height: 500px;
+    margin: 20px auto;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0)
+    -4px -4px 8px rgb(0, 0, 0);
+}
+
+.ha {
+    text-align: right;
+
+}
+
+body {
+    background-color: rgb(233, 143, 110);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.haa {
+    text-decoration-color: rgb(83, 42, 23);
+}
+
+
+table tr:nth-child(3) {background-color: aqua;}
+table tr:nth-child(5) {background-color: aqua;}
+table tr:nth-child(7) {background-color: aqua;}
+table tr:nth-child(9) {background-color: aqua;}
+
+table tr:nth-child(1) {background-color: rgb(106, 245, 94);}
+table tr:nth-child(2) {background-color: rgb(106, 245, 94);}
+table tr:nth-child(4) {background-color: rgb(106, 245, 94);}
+table tr:nth-child(6) {background-color: rgb(106, 245, 94);}
+table tr:nth-child(8) {background-color: rgb(106, 245, 94);}
+table tr:nth-child(10) {background-color: rgb(106, 245, 94);}

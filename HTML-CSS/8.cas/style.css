@@ -1,0 +1,61 @@
+h1 {
+    color: #0000ff;
+
+}
+div h1 {
+    color: red;
+}
+.class1 p {
+    color: green;
+}
+.class1 {
+    background-color: aquamarine;
+    width: 400px;
+    height: 300px;
+    /* border: 1px solid black; */ 
+    /* obicno */
+    /* border: 5px double blue; */
+    /* duplo */
+    /* border: 5px dotted blue; */
+    /* tacke */
+    border: 1px solid blue;
+    /* margin: 20px; */
+    margin: 10px 20px 15px 5px;
+    /* padding: 15px; */
+    padding: 15px 10px 15px 10px;;
+}
+
+#id1 {
+    background-color: rgb(175, 155, 41);
+    width: 400px;
+    height: 300px;
+    margin: 20px 30px;
+    border: 3px solid green;
+    border-radius: 8px;
+    padding: 15px 30px;
+    margin: 30px auto;
+    
+}
+
+#id1 p {
+    color: blue;
+
+}
+
+#id1:hover{
+    background-color: blueviolet;
+}
+
+#id1 p:hover {
+    background-color: chocolate;
+}
+
+#id2 {
+    color: rgb(194, 47, 47);
+}
+
+.class2 {
+    color: blueviolet;
+}
+
+/* id ima prednost u odnosu na klasu */

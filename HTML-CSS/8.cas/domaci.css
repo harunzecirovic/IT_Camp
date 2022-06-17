@@ -1,0 +1,42 @@
+div {
+    
+    background-color: rgb(241, 146, 37);
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    /* margin: 20px; */
+    margin: 30px auto ;
+    /* padding: 15px; */
+    padding:0;
+}
+h1 {
+    margin: 30px auto;
+    padding: 5px 20px;
+}
+
+h1:hover {
+    background-color: rgb(150, 76, 20);
+}
+
+h3 {
+    padding: 1px 10px;
+}
+
+p {
+    padding: 7px 5px;
+}
+
+h3:hover {
+    background-color: rgb(150, 76, 20);
+}
+
+p:hover {
+    background-color: rgb(150, 76, 20);
+}
+
+div img {
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+
+
+}
