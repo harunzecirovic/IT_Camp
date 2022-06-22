@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+}
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+div:nth-of-type(1) {
+    margin: 50px auto;
+    background-color: coral;
+    width: 650px;
+    height: 220px;
+    overflow: auto;
+}
+
+div:nth-of-type(2) {
+    margin: 50px auto;
+    background-color: rgb(110, 107, 106);
+    width: 650px;
+    height: 220px;
+    overflow: auto;
+    display: none; /* za brisanje sveg teksta*/
+    /* visibility: hidden; ovaj metod ostavlja rupu pa nije preporucljiv */
+}
+
+div:nth-of-type(3) {
+    margin: 50px auto;
+    background-color: rgb(36, 18, 11);
+    width: 650px;
+    height: 220px;
+    overflow: auto;
+}
+
+#icon {
+    color: aqua;
+    padding: 10px;
+    background-color: blueviolet;
+    margin: 5px 7px;
+}
+
+#ic {
+    color: aqua;
+    padding: 10px;
+    background-color: blueviolet;
+}
