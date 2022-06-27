@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+}
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 3cm;
+}
+
+div {
+    margin: 20px auto;
+    width: 500px;
+    height: 500px ;
+    background-color: aqua;
+
+}
