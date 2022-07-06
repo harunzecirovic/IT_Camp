@@ -1,0 +1,46 @@
+
+* {
+    margin: 0px;
+}
+body {
+    background-color: rgb(217, 221, 224);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h3 {
+    color: rgb(23, 95, 250);
+    font-size: 40px;
+}
+
+/* div {
+    margin: 20px auto;
+    width: 500px;
+    height: 500px ;
+    background-color: aqua;
+
+} */
+
+.lijevi {
+    width: 450px;
+    height: 250px;
+    margin: 200px 150px;
+    font-size: 25px;
+    float: left;
+
+}
+
+.desni {
+    float: right;
+    width: 400px;
+    height: 400px;
+    margin: 150px 100px 150px 0px;
+    background-color: rgb(253, 255, 255);
+}
+
+.p1 {
+    /* margin: 20px auto; */
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
