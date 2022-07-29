@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.parent {
+    width: 80%;
+    height: 40vw;
+    background-color: blue;
+    transition: transform 0.5s cubic-bezier(0.075,0.82,0.165,1);
+}
+
+.parent :hover .child {
+    transform: translate(100%);
+}
