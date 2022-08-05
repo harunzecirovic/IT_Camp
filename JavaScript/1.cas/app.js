@@ -112,4 +112,4 @@ new Map([
 ]);
 
 // Treba imati na umu da svi tipovi podataka koji nisu primitivni imaju 
-// object tip kada ispitujemo preko funkcije typeof.S
+// object tip kada ispitujemo preko funkcije typeof.
