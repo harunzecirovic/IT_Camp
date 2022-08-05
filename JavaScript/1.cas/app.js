@@ -54,3 +54,62 @@ BigInt(325435432543)
 //     Zapisivanje symbol:
 
 Symbol("Kako je bilo vrijeme");
+
+// 2. Ne primitivni tip podatka (Non-primitive data type)
+//    Koriste se za skladistenje varijabli koje imaju jednu vrijednost,
+//    dokza promenjive koje sadrze vise vrijjednosti ili kompleksne vrijednosati 
+//    koristimo ne primitivne tipove podataka
+
+//    Primeri za NP tipove podataka:
+
+// 2.1 Array (Nizovi) - Nizovi se koriste za skladistenje vise podataka unutar 
+//     jedne promenjive. Nizovi u JS imaju mogucnost skladistenja elemenata 
+//     razlicitih tipova podataka.
+
+//     Zapisivanje nizova:
+//     Niz stringova:
+['Talib', 'Muhamed', 'Amina', 'Ahmed']
+//     Niz brojeva:
+['15', '19', '17', '19']
+//     Niz razlicitih tipova podataka:
+['Talib', 15, false, 'Ahmed', 19, true]
+
+// 2. Nacin zapisivanja nizova (Ne koristi se)
+new Array([false, 'Ahmed', 19,])
+
+// 2.2 Objects (Objekti) - su glavna stvar u JS.Sluze za skladistenje nekih 
+//     Podataka i oni po principu imaju ime,vrednost(name,value)
+//     takodje razliciti tipovi podataka
+
+//     Zapisivanje objekata:
+// {
+//     marka: 'BMW',
+//     godiste: 2006,
+//     boja: 'crna',
+//     kubikaza: '2.0ks',
+// }
+
+// 2. Nacin zapisivanja objekata (Ne koristi se)
+new Object({punoletstvo: false,
+    ime: 'Ahmed',
+    godine: 19,})
+
+// 2.3 Set (Setovi) - su slicni nizovima, sa razlikom kod zapisivanja i 
+//     Izmedju ostalih najbitnija karakteristika kod setova je da oni 
+//     ne mogu imati duplikate
+
+//     Zapisivanje stova:
+new Set(['Jabuka', 'sljiva', 'kruska'])
+
+// 2.4 Maps - predstavljaju NP tip podatka koji je vrlo slican objektu,
+//            ali zapisivanje se izrazava na drugaciji nacin
+
+//     Zapisivanje mape:
+new Map([
+    ['apples', 500],
+    ['bananas', 200],
+    ['berry', 100]
+]);
+
+// Treba imati na umu da svi tipovi podataka koji nisu primitivni imaju 
+// object tip kada ispitujemo preko funkcije typeof.S
