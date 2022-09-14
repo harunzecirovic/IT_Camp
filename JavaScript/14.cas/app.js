@@ -50,13 +50,3 @@ console.log(sentence01)
 
 // Sve metode sa stringovima nam vracaju novi string
 // One ne modifikuju postojoci
-
-//Domaci
-// Funlkcija trazi da korisnik unese rwcenicu,zatim funkcija vraca istu recenicu u vise oblika
-//1. velikim slovima
-//2. malim slovima
-//3. pola velikim a pola malim(lenght)
-//4. ako se nadje rijec skola nek bude zamijenjenja sa fax u cijeloj recenici
-//5. neka bude ispisano prvih 10 karaktera
-//6. zadnjih 10
-// \ za novi red
