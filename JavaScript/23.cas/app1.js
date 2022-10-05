@@ -48,3 +48,34 @@ console.log(Math.LOG10E);
 
 // 3. Pretvaranje radijana u stepene argument
 
+
+// 1. 
+
+function Obim() {
+    const r = +prompt('Unesite poluprecnik r')
+    let obim = 2 * r * Math.PI;
+    if (isNaN(r)) {
+        return `R mora biti broj`
+    }else {
+    return `Obim kruga sa poluprecnikom ${r} je ${obim}`
+    }
+}
+console.log(Obim());
+
+
+// 2.
+
+const povrsina = function (r) {
+    let povrsinaa =  r **2 * Math.PI;
+    return `Povrsina kruga sa poluprecnikom ${r} je ${obim}`
+    
+}
+console.log(povrsina(5));
+
+// 3.
+
+const radijan = function (stepen) {
+    let radijani =  stepen * (Math.PI/180)
+    return `${stepen} stepeni je ${radijani} radijana` 
+}
+console.log(radijan(90));
