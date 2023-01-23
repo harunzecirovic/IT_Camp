@@ -21,3 +21,8 @@ is used when it needs some special optimizations.
 Props(properties) is a way for manipulating data and states
 We can send data thtought props and we can send data to parent
 thtought props 
+
+Parent component is component which is created 
+Child component is component which is includedd in parent
+Parent can have more than one Child
+Children can have more parents

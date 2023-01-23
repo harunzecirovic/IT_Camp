@@ -1,38 +1,26 @@
-import React, {useState, useEffect} from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
-import StyledButton from './components/styleButton/styledButton';
-import StyledHeader from './components/styleButton/styledHeader'
+import StyledForm from './components/StyledForm/StyledForm';
+import CustomDiv from './components/CustomDiv/CustomDiv';
 
-const App =() => {
-  const[innerText, setInnerText] = useState('')
-  const[clicked,setClicked] = useState(false)
+const App = () =>{
+  const [fullName, setFullName] = useState('')
 
-  useEffect(() => {
-    clicked ? setInnerText('Clicked') : setInnerText('Click me')
-  }, [clicked])
-
-  function buttonClick() {
-    setClicked(!clicked)
+  function dataGraber(name,lastName) {
+    let fullName = name + ' ' + lastName
+    console.log(fullName)
+    setFullName(fullName)
   }
-
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <StyledHeader innerText="This is header"/>
-        <StyledButton innerText={innerText} onClickHandler={buttonClick}/>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <CustomDiv>
+          <h1>{fullName}</h1>
+        </CustomDiv>
+        <StyledForm sendData={(name, lastName) => dataGraber(name,lastName)} />
       </header>
     </div>
   );
-}
+} 
 
 export default App;
