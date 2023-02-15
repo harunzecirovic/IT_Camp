@@ -11,6 +11,29 @@ import { fontSize } from "@mui/system";
 import Text from "../../components/Text/Text";
 import { getScreenWidth } from "../../Util/helpers";
 
+const SocialIcons = () => (
+  <>
+  <TwitterIcon
+              style={{fontSize: fontSize.normal,
+              color: colors.gray,
+              margin: '0px 10px',
+              }}
+            />
+            <InstagramIcon
+              style={{fontSize: fontSize.normal,
+              color: colors.gray,
+              margin: '0px 10px',
+              }}
+            />
+            <FacebookIcon
+              style={{fontSize: fontSize.normal,
+              color: colors.gray,
+              margin: '0px 10px',
+              }}
+            />
+  </>
+)
+
 const TopRow = () => {
   const screenWidth = getScreenWidth();
   console.log(screenWidth);
@@ -25,7 +48,7 @@ const TopRow = () => {
       border="0px"
     >
       <Grid container direction="row">
-        <Grid item md={6} lg={6} spacing={0}>
+        <Grid item md={6} lg={6} >
           <CustomDiv display="flex" alignItems="center">
             <PhoneIcon style={{ fontSize: fontSize.normal }} />{" "}
             <Text fontSize={fontSize.small}>+381633333333</Text>
@@ -39,24 +62,17 @@ const TopRow = () => {
               }}
             />
             <Text>info@gmail.com</Text>
-            <TwitterIcon
-              style={{fontSize: fontSize.normal,
-              color: colors.gray,
-              }}
-            />
-            <InstagramIcon
-              style={{fontSize: fontSize.normal,
-              color: colors.gray,
-              }}
-            />
-            <FacebookIcon
-              style={{fontSize: fontSize.normal,
-              color: colors.gray,
-              }}
-            />
             </CustomDiv>
+            </CustomDiv>
+        </Grid>
+        <Grid item md={6} lg={6} >
+        <CustomDiv 
+          display='flex'
+          alignItems='center'
+          justifyContent='flex-end'
+          >
+            <SocialIcons />
           </CustomDiv>
-          <CustomDiv width="50%" border="0px" bgColor="inherit"></CustomDiv>
         </Grid>
       </Grid>
     </CustomDiv>

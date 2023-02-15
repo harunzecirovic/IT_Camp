@@ -1,3 +1,4 @@
+import { letterSpacing } from "@mui/system";
 import React from "react";
 // import "./CustomDiv.css";
 
@@ -15,6 +16,7 @@ const CustomDiv = ({
   justifyItems,
   alignItems,
   alignContent,
+  letterSpacing,
 }) => {
   const divWidth = width ? width : 'auto';
   const divHeight = height ? height : 'auto';
@@ -28,6 +30,7 @@ const CustomDiv = ({
   const ji = justifyItems ? justifyItems : "center";
   const ai = alignItems ? alignItems : "center";
   const ac = alignContent ? alignContent : "center";
+  const ls = letterSpacing ? letterSpacing : '0px' ;
   return (
     <div
       style={{
@@ -43,6 +46,7 @@ const CustomDiv = ({
         justifyItems: ji,
         alignItems: ai,
         alignContent: ac,
+        letterSpacing: ls
       }}
     >
       {children}
